@@ -4,7 +4,7 @@
     "imageName": "ghcr.io/retaildevcrews/tinybench",
     "imageTag": "beta",
     "port": 8080,
-    "targets": [ ]
+    "targets": ["azure"]
 
     // possible targets [ "azure", "do", "gcp" ]
 }
