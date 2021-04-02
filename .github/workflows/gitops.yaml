@@ -27,6 +27,9 @@ jobs:
         username: ${{ secrets.GHCR_ID }}
         password: ${{ secrets.GHCR_PAT }}
 
+    - name: Docker pull
+      run: docker pull ghcr.io/retaildevcrews/autogitops:beta
+
     - name: GitOps Deploy
       run: |
         docker run --rm \
