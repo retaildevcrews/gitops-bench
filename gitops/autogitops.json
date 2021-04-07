@@ -1,9 +1,8 @@
 {
     "name": "tinybench",
-    "namespace": "ngsa",
+    "namespace": "tiny",
     "imageName": "ghcr.io/retaildevcrews/tinybench",
     "imageTag": "beta",
-    "port": 8080,
     "targets": [ "azure", "do", "gcp" ]
 
     // possible targets [ "azure", "do", "gcp" ]
