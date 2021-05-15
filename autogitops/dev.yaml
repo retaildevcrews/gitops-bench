@@ -24,7 +24,7 @@ spec:
           - -p
           - "8080"
           - -u
-          - benchmark
+          - /benchmark
 
           ports:
             - name: http
